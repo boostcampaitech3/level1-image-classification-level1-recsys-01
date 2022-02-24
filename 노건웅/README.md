@@ -2,6 +2,10 @@
 
 **주의사항: '001498-1', '004432' 성별이 변경되었으니 해당 directory 이름 변경 필요**
 
+-   new_data_eda
+	- data_eda: class, 나이, 성별 갯수
+	- data_augmentation.ipynb: 이미지 새로 추가 (따로 함수를 만들지 않아서 코드가 정돈되지 않았습니다.
+	- augmentation_label.csv: 새롭게 augmented한 이미지까지 추가한 전체 dataset, label 표시 csv 파일
 -   train3.csv: '001498-1', '004432'에서 성별이 잘못된 데이터를 변경
 -   image_label.csv
     -   id: id
